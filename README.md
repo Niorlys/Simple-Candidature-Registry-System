@@ -2,8 +2,8 @@
 This is an API REST to manage new candidates aiming joing certain tech enterprise.
 
 ## Manual:
-1) Setup an enviroment using requeriments.txt.
-2) On that enviroment, run server in terminal with command "python manage.py runserver 8000".
+1) Setup an enviroment using requeriments.txt and make database migrations with command "python manage.py migrate".
+2) On the enviroment, run server in terminal with command "python manage.py runserver 8000".
 3) Open index.html .
 4) From there we can see options: Manage candidates | Manage tech experience | Manage technologies
 5) First option is a CRUD for candidates.
