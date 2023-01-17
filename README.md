@@ -14,8 +14,8 @@ This is an API REST to manage new candidates aiming joing certain tech enterpris
 For report, just write desired technology, and a new page will show a report of candidates using that technology descending by 
 experience years.
 ## Endpoints:
-1- http://127.0.0.1:8000/candidates/ --> List and create candidates. 
-2- http://127.0.0.1:8000/candidates/candidate_id --> Retrieve a candidate to update or delete. 
-3- http://127.0.0.1:8000/candidatetech/ --> Form for assigns technologies to candidates and experience years. 
-4- http://127.0.0.1:8000/candidatetech/candidatetech_id --> Retrieve a candidatetech to update or delete. 
+1- http://127.0.0.1:8000/candidates/ --> List and create candidates.  
+2- http://127.0.0.1:8000/candidates/candidate_id --> Retrieve a candidate to update or delete.  
+3- http://127.0.0.1:8000/candidatetech/ --> Form for assigns technologies to candidates and experience years.  
+4- http://127.0.0.1:8000/candidatetech/candidatetech_id --> Retrieve a candidatetech to update or delete.   
 5- http://127.0.0.1:8000/report?tech=tech_name&Form=Submit --> List a report for the tech_name technology.
