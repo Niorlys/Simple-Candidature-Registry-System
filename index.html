@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet" href="style.css">
+        <title> Registro de Candidatos</title>
+    </head>
+    <body>
+    <h1>Registry</h1>
+    <nav id="horizontal">
+      <h2>End Points</h2> <p>
+      <a href="http://127.0.0.1:8000/candidates">Manage candidates</a> |
+      <a href="http://127.0.0.1:8000/candidatetech">Manage tech experience</a> |
+      <a href="http://127.0.0.1:8000/tech">Manage technologies</a></p>
+    </nav>
+    <form method="GET" action="http://127.0.0.1:8000/report" >
+      <dl>
+        <dt>Report for technology:
+        <dd><input type="text" name="tech">
+        </dl>
+        <input type="submit" name="Form" value="Submit">
+      </form> 
+</html>

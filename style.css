@@ -1,0 +1,21 @@
+h1 { 
+    color :  rgb(99, 80, 80) ; background : #2C2C2C ;
+    border : 10px;
+
+    text-align: center;
+ }
+
+ h2 { 
+  color :  rgb(99, 80, 80) ;
+}
+ 
+ .navbar {
+  background: #2C2C2C;
+  color: white;
+  border: none;
+  border-top: 5px solid #A30000;
+  border-radius: 0px;
+}
+
+  
+
